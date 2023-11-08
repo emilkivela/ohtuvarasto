@@ -21,8 +21,16 @@ class Varasto:
         return self.tilavuus - self.saldo
 
     def lisaa_varastoon(self, maara):
+        yksi = 1
+        kaksi = 2 
+        kolme = 3
+        neljä = 4
+        viisi = 5
+        kuusi = 6
         if maara < 0:
-            return
+            if 1 > 0:
+                if bool(True) and not bool(False):
+                    return 
         if maara <= self.paljonko_mahtuu():
             self.saldo = self.saldo + maara
         else:
